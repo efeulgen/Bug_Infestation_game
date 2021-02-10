@@ -45,10 +45,6 @@ splash_rect = splash_img.get_rect(center=(0, 0))
 
 game_text = GameText()
 
-# ******************************
-# main loop
-# ******************************
-
 running = True
 hit = False
 hit_cooldown = 0
@@ -91,9 +87,7 @@ while running:
                 player_y_speed = 0
                 player_x_speed = 0
 
-    # ****************************************
-    # end of key binding
-    # ****************************************
+
     if game_over is False:
         # screen an score
         screen.blit(bg_img, (0, 0))
