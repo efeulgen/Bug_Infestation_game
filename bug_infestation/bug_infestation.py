@@ -7,9 +7,10 @@ from pathlib import Path
 pygame.init()
 clock = pygame.time.Clock()
 
-# screen
-screen = pygame.display.set_mode((1280, 720))
-pygame.display.set_caption("Space Bug Infestation by @fff")
+screen_size = 1280, 720
+width, height = screen_size
+screen = pygame.display.set_mode((screen_size))
+pygame.display.set_caption("Space Bug Infestation")
 bg_img = pygame.image.load("assets/deep_space_bg_1280x720.png")
 
 # background music
