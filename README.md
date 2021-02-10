@@ -1,2 +1,2 @@
 # Bug_Infestation_game
-2D shooter game made with pygame.
+Bugs! Every programmer's worst nightmare, so... why don't you trouble-SHOOT some?
