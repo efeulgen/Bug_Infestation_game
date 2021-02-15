@@ -1,3 +1,0 @@
-Fire -- Space
-Move Up -- Up Arrow
-Move Down -- Down Arrow
